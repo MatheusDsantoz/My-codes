@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Café Starbuzz</title>
+    <style>
+        table{
+        align-items: center;
+    }
+        h2{
+            text-align: center;
+            color: blue;
+        }
+         h1{
+            text-align: center;
+            color: blue
+         }
+     p{
+        text-align: center;
+     }
+     div{
+        text-align: center;
+     }
+     ul{
+        list-style-position: inside;
+        margin-right: 63px;
+     }
+    li{
+        text-align: center;
+    }
+    
+    
+    img.centro{
+        display: block;
+        margin: auto
+    }
+    li.frente{margin-left: 60px;}
+    p.um{background-color: rgba(211, 209, 208, 0.938);
+    border: solid;
+    border-color: rgb(185, 185, 185);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+    p.dois{background-color: rgba(211, 209, 208, 0.938);
+        border: solid;
+    border-color: rgb(185, 185, 185);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+    span{color: rgb(0, 132, 255);}
+    table{background-color: aquamarine;
+    border-collapse: collapse;}
+    th{border: 2px solid;}
+    tr,td{
+        border: 1px solid
+    }
+    tr:hover{
+        background-color: deeppink;
+    }
+    </style>
+   
+
+
+
+
+</head>
+
+<body>
+<h1>Bem-vindo à Página com Recursos HTML</h1>
+<p>Está página demonstra diversos recursos HTML, incluindo imagens, tabelas, lsitas, e uma seção de comentários. Você pode acessar mais informações em <span>W3Schools.</span></p>
+<br><br>
+<h2>Imagem Centralizada</h2>
+<img class="centro" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSng-weesOJGIFA2aBqlDThHiwrAShypiSgA&s">
+<h2>Lista de Recursos</h2>
+<p>Veja alguns recursos que você pode explorar:</p>
+<div>
+<ul>
+    <li class="frente">Listas não ordenadas para itens</li>
+    <li>Links para navegação</li>
+    <li>Imagens centralizadas</li>
+</ul>
+</div>
+
+<div class="tabela">
+<table>
+    <hr>
+    <caption>Cursos do Campus Tubarão</caption>
+    <tr>
+        <th>Curso</th>
+        <th>Nível 1</th>
+        <th>Duração</th>
+    </tr>
+    <tr>
+        <td>Análise e desenvolvimento de Sistemas</td>
+        <td>Superior</td>
+        <td>6 semestres</td>
+    </tr>
+    <tr>
+        <td>Desenvolvimento de Sistemas</td>
+        <td>Técnico</td>
+        <td>3 semestres</td>
+    </tr>
+    <tr>
+        <td>Matemática</td>
+        <td>Superior</td>
+        <td>8 Semestres</td>
+    </tr>
+    <tr>
+        <td>Tecnologias para Edução</td>
+        <td>Especialização</td>
+        <td>2 semestres</td>
+    </tr>
+</table>
+</div>
+<h2>Seção de Comentários</h2>
+
+<p class="um"><strong>João:</strong> Adorei a página! Muito informativa.</p>
+<p class="dois"><strong>Mariana:</strong> Excelente exemplo de uso de HTML!</p>
+
+<form action="#" method="post" class="comentario">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="comentario">Comentário:</label><br>
+    <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+
+</body>
+
+</html>
